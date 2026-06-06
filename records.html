@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>记录 | 星栈的博客</title>
+  <meta name="description" content="星栈的博客记录页，整理最近的技术感悟、项目思考和接下来准备写下来的主题。">
+  <meta name="theme-color" content="#ff7b5c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-sky" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">星栈的博客</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="records.html" aria-current="page">记录</a>
+        <a href="topics.html">主题</a>
+        <a href="projects.html">项目</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <p class="section-label">记录</p>
+        <h1>把感悟、方法和项目过程，一点点整理清楚。</h1>
+        <p>
+          这里会慢慢放更多记录。先从最近在反复想的事情开始，再把项目中的判断、修正和变化一点点写下来。
+        </p>
+      </section>
+
+      <section class="archive-overview">
+        <article class="page-panel archive-intro">
+          <p class="section-label">归档</p>
+          <h2>这里先放最近写下来的三篇，之后会继续把项目过程和技术判断慢慢补齐。</h2>
+          <p>
+            我希望这里不是一串孤立的链接，而是一条能看出思路变化的记录线。写产品，写工作节奏，也写那些决定项目怎么继续长下去的判断。
+          </p>
+          <div class="archive-stats">
+            <div class="archive-stat">
+              <strong>3</strong>
+              <span>已发布文章</span>
+            </div>
+            <div class="archive-stat">
+              <strong>2</strong>
+              <span>主要方向：方法与产品</span>
+            </div>
+            <div class="archive-stat">
+              <strong>1</strong>
+              <span>正在持续打磨的项目</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="page-panel archive-side">
+          <p class="section-label">接下来会写</p>
+          <h3>让这页慢慢长成真正的博客归档。</h3>
+          <ul class="page-note-list">
+            <li>独立开发里，怎么给项目设定真正有用的评价标准</li>
+            <li>`pico-crm` 从小 MVP 往前走时，哪些地方最值得先收紧</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="archive-topics">
+        <a class="page-panel archive-topic-card" href="topics.html#topic-method">
+          <p class="section-label">方法与判断</p>
+          <h3>评价体系、标准感、长期成长</h3>
+          <p>适合先看“怎么判断方向、怎么减少摇摆”这一类内容。</p>
+        </a>
+
+        <a class="page-panel archive-topic-card" href="topics.html#topic-rhythm">
+          <p class="section-label">工作节奏</p>
+          <h3>结构、细节、学习的分配方式</h3>
+          <p>更偏日常，但其实也和输出质量、长期状态密切相关。</p>
+        </a>
+
+        <a class="page-panel archive-topic-card" href="topics.html#topic-product">
+          <p class="section-label">产品与边界</p>
+          <h3>`pico-crm` 为什么要顺着业务去长</h3>
+          <p>主要围绕中小商家场景、产品边界和系统复杂度的取舍。</p>
+        </a>
+      </section>
+
+      <section class="entry-list">
+        <article class="page-panel entry-card" id="topic-method">
+          <p class="section-label">最近记录</p>
+          <p class="entry-meta">近期感悟 · 约 3 分钟</p>
+          <h2><a href="posts/evaluation-standards.html">做事情要有评价体系和标准，目标才不会越走越模糊。</a></h2>
+          <p>
+            不管是公司还是个人，如果没有评价体系和标准，很多努力最后都会变成凭感觉推进。
+            做到什么算有效，做到什么算偏离，什么时候该继续，什么时候该停下来修正，都需要有清楚的判断。
+          </p>
+          <div class="entry-tags">
+            <span>评价体系</span>
+            <span>长期成长</span>
+            <span>做事方法</span>
+          </div>
+          <p class="entry-footer"><a href="posts/evaluation-standards.html">阅读全文</a></p>
+        </article>
+
+        <article class="page-panel entry-card" id="topic-rhythm">
+          <p class="section-label">随手记</p>
+          <p class="entry-meta">工作节奏 · 约 2 分钟</p>
+          <h3><a href="posts/work-rhythm.html">最近喜欢的工作节奏</a></h3>
+          <p>
+            上午做结构，下午改细节，晚上留给学习。白天把手上的东西做扎实，晚上再去吸收一点新的知识和方法。
+          </p>
+          <p class="entry-footer"><a href="posts/work-rhythm.html">阅读全文</a></p>
+        </article>
+
+        <article class="page-panel entry-card" id="topic-product">
+          <p class="section-label">项目想法</p>
+          <p class="entry-meta">pico-crm · 约 3 分钟</p>
+          <h3><a href="posts/product-boundaries.html">产品越早有边界，后面越容易长得稳。</a></h3>
+          <p>
+            做 `pico-crm` 让我越来越确认一件事：中小商家不缺一个更复杂的系统，缺的是一个能顺着自己业务长下去的系统。
+          </p>
+          <p class="entry-footer"><a href="posts/product-boundaries.html">阅读全文</a></p>
+        </article>
+
+        <article class="page-panel entry-card">
+          <p class="section-label">慢慢补齐</p>
+          <p class="entry-meta">下一批主题</p>
+          <ul class="page-note-list">
+            <li>独立开发里，怎么给项目设定真正有用的评价标准</li>
+            <li>`pico-crm` 从小 MVP 往前走时，哪些地方最值得先收紧</li>
+          </ul>
+          <p class="entry-footer"><a href="index.html#contact">如果你也有类似想法，欢迎交流</a></p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

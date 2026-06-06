@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>星栈的博客</title>
+  <meta
+    name="description"
+    content="星栈的博客。记录独立开发、项目打磨、代码笔记，以及那些慢慢成形的产品想法。"
+  >
+  <meta name="theme-color" content="#ff7b5c">
+  <meta property="og:title" content="星栈的博客">
+  <meta property="og:description" content="独立开发、项目笔记、代码和生活碎片，慢慢堆成一座属于自己的星栈。">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-sky" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#top">星栈的博客</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html" aria-current="page">首页</a>
+        <a href="about.html">关于</a>
+        <a href="records.html">记录</a>
+        <a href="topics.html">主题</a>
+        <a href="projects.html">项目</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-copy">
+        <p class="eyebrow">独立开发 / 项目笔记 / 代码与生活</p>
+        <h1>
+          在这里，
+          <span>慢慢记录那些还在发光的想法。</span>
+        </h1>
+        <p class="intro">
+          这里是星栈。写一点独立开发，写一点正在打磨的项目，也写一点代码之外的判断和感受。
+          我更喜欢把事情做得扎实一些，也愿意把过程中真实的犹豫、修正和收获留下来。
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="records.html">先看最近记录</a>
+          <a class="button secondary" href="https://github.com/John0615/pico-crm">再看看 pico-crm</a>
+        </div>
+        <div class="hero-summary">
+          <span>写项目过程</span>
+          <span>写结构判断</span>
+          <span>也写一点真实的犹豫</span>
+        </div>
+      </div>
+
+      <div class="hero-scene">
+        <div class="hero-image hero-image-main">
+          <img src="assets/hero-studio.svg" alt="带有夜色氛围的开发工作台插画">
+        </div>
+        <div class="scene-note scene-note-top">
+          <p>最近在打磨</p>
+          <strong>pico-crm</strong>
+          <span>一个想做得轻一点、但能活很久的 CRM。</span>
+        </div>
+        <div class="scene-note scene-note-bottom">
+          <p>写作偏好</p>
+          <strong>记录过程，而不只记录结果。</strong>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section class="focus-band">
+        <article class="panel focus-card focus-card-primary">
+          <p class="section-label">本页重点</p>
+          <h2>最近在把“长期可用”这件事想得更深一点。</h2>
+          <p>
+            不只是怎么把功能做出来，而是几轮需求变化之后，它还能不能继续保持清楚、轻和顺手。
+          </p>
+        </article>
+
+        <article class="panel focus-card">
+          <p class="section-label">正在做</p>
+          <h3>pico-crm</h3>
+          <p>一个想做得克制一点、却能陪人用很久的 CRM。</p>
+        </article>
+
+        <article class="panel focus-card">
+          <p class="section-label">写作方式</p>
+          <h3>记录过程</h3>
+          <p>记录怎么判断、怎么修正，也记录哪些地方其实走过弯路。</p>
+        </article>
+      </section>
+
+      <section class="latest-grid">
+        <article class="panel latest-lead">
+          <p class="section-label">最近三篇</p>
+          <h2>如果第一次来到这里，可以先从这三篇开始认识我最近在想什么。</h2>
+          <p>
+            一篇写做事标准，一篇写工作节奏，一篇写 `pico-crm` 的产品边界。它们基本就是我最近这段时间最真实的关注点。
+          </p>
+          <p class="section-link"><a href="records.html">查看完整归档</a></p>
+        </article>
+
+        <div class="latest-stack">
+          <a class="panel latest-card" href="posts/evaluation-standards.html">
+            <p class="section-label">近期感悟</p>
+            <p class="latest-meta">2026.06.06 · 约 3 分钟</p>
+            <h3>做事情要有评价体系和标准，目标才不会越走越模糊。</h3>
+            <p>很多时候不是不努力，而是没有一套清楚的判断方式，所以推进越久反而越容易散。</p>
+          </a>
+
+          <a class="panel latest-card" href="posts/work-rhythm.html">
+            <p class="section-label">随手记</p>
+            <p class="latest-meta">2026.06.05 · 约 2 分钟</p>
+            <h3>最近喜欢的工作节奏</h3>
+            <p>上午做结构，下午改细节，晚上留给学习。这样我更容易把事情做扎实，也还能保留成长空间。</p>
+          </a>
+
+          <a class="panel latest-card" href="posts/product-boundaries.html">
+            <p class="section-label">项目想法</p>
+            <p class="latest-meta">2026.06.04 · 约 3 分钟</p>
+            <h3>产品越早有边界，后面越容易长得稳。</h3>
+            <p>做 `pico-crm` 让我越来越确认，中小商家更需要能顺着业务长下去的系统，而不是更复杂的系统。</p>
+          </a>
+        </div>
+      </section>
+
+      <section class="topic-grid">
+        <article class="panel topic-intro">
+          <p class="section-label">按主题阅读</p>
+          <h2>如果不想按时间看，也可以顺着主题走。</h2>
+          <p>
+            现在内容还不多，但已经能看出三个主要方向：做事方法、工作节奏、以及围绕 `pico-crm` 的产品判断。
+          </p>
+        </article>
+
+        <a class="panel topic-card" href="topics.html#topic-method">
+          <p class="section-label">方法与判断</p>
+          <h3>先看我怎么给事情建立标准感。</h3>
+          <p>适合想看“怎么判断一件事该不该继续做、该怎么做”的内容。</p>
+          <div class="topic-chip-row">
+            <span>评价体系</span>
+            <span>长期成长</span>
+          </div>
+        </a>
+
+        <a class="panel topic-card" href="topics.html#topic-rhythm">
+          <p class="section-label">工作节奏</p>
+          <h3>再看我最近怎么安排白天和晚上。</h3>
+          <p>更偏日常，但其实也和输出质量、学习方式、长期状态都有关。</p>
+          <div class="topic-chip-row">
+            <span>远程工作</span>
+            <span>学习节奏</span>
+          </div>
+        </a>
+
+        <a class="panel topic-card" href="topics.html#topic-product">
+          <p class="section-label">产品与边界</p>
+          <h3>最后看 `pico-crm` 为什么要克制地长。</h3>
+          <p>主要写产品边界、用户场景、以及为什么不想把系统做得越来越重。</p>
+          <div class="topic-chip-row">
+            <span>CRM</span>
+            <span>产品边界</span>
+          </div>
+        </a>
+      </section>
+
+      <section class="story-strip" id="about">
+        <article class="panel intro-panel">
+          <p class="section-label">关于</p>
+          <h2>想把项目、判断和生活里的微小线索，慢慢整理成清楚的东西。</h2>
+          <p class="about-lead">
+            我是星栈，也可以把这里理解成一个还在慢慢成形的个人角落。
+          </p>
+          <p>
+            现在主要在做 `pico-crm` 和一些桌面小工具。比起做一个什么都想覆盖的通用系统，我更想把它们做成可定制、性能高、
+            维护成本低，而且能继续扩展的产品。
+          </p>
+          <p>
+            做 `pico-crm` 的原因也很直接。我想做一个真正能按想法继续长下去的 CRM，而不是被通用场景拖得越来越重。
+            如果能在这个过程中遇到愿意交流想法、一起成长的人，那这件事本身就已经很值得。
+          </p>
+          <p>
+            我偏好远程工作，也喜欢这种相对安静、能专心把事情想清楚再做下去的节奏。
+            这个博客之后会长期记录项目迭代、产品判断和开发过程，也把那些真正影响产品走向的取舍慢慢留下来。
+          </p>
+          <p class="section-link"><a href="about.html">查看完整关于</a></p>
+        </article>
+
+        <article class="panel aside-panel">
+          <p class="section-label">关于我</p>
+          <div class="about-meta">
+            <div class="meta-item">
+              <span class="meta-label">身份</span>
+              <strong>独立开发者</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">现在主要在做</span>
+              <strong>pico-crm / 桌面小工具</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">目前主要技术栈</span>
+              <strong>Rust / Elixir / PHP / JavaScript</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">工作方式</span>
+              <strong>远程工作</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">长期记录</span>
+              <strong>项目迭代 / 产品判断 / 开发过程</strong>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">联系邮箱</span>
+              <strong><a href="mailto:zhaosp0615@88.com">zhaosp0615@88.com</a></strong>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="journal-layout" id="journal">
+        <article class="panel journal-card journal-card-wide">
+          <div class="journal-copy">
+            <p class="section-label">最近记录</p>
+            <p class="journal-meta">最近记录 · 近期感悟</p>
+            <h2>做事情要有评价体系和标准，目标才不会越走越模糊。</h2>
+            <p>
+              不管是公司还是个人，如果没有评价体系和标准，很多努力最后都会变成凭感觉推进。
+              做到什么算有效，做到什么算偏离，什么时候该继续，什么时候该停下来修正，这些都需要有一套清楚的判断。
+            </p>
+            <p>
+              我越来越觉得，标准并不是束缚，而是让事情能够长期往前走的地基。对个人来说是成长方式，
+              对项目来说是演进路径，对团队来说则是协作的共识。
+            </p>
+            <div class="journal-tags">
+              <span>评价体系</span>
+              <span>长期成长</span>
+              <span>做事方法</span>
+            </div>
+            <p class="section-link"><a href="posts/evaluation-standards.html">阅读全文</a></p>
+          </div>
+          <div class="journal-media">
+            <img src="assets/signal-flow.svg" alt="抽象的流程和信号连接插画">
+          </div>
+        </article>
+
+        <article class="panel note-card note-card-warm">
+          <p class="section-label">随手记</p>
+          <h3>最近喜欢的工作节奏</h3>
+          <p>上午做结构，下午改细节，晚上留给学习。白天把手上的东西做扎实，晚上再去吸收一点新的知识和方法。</p>
+          <p class="section-link"><a href="posts/work-rhythm.html">阅读全文</a></p>
+        </article>
+
+        <article class="panel note-card note-card-dark">
+          <p class="section-label">项目想法</p>
+          <h3>产品越早有边界，后面越容易长得稳。</h3>
+          <p>做 `pico-crm` 让我越来越确认一件事：中小商家不缺一个更复杂的系统，缺的是一个能顺着自己业务长下去的系统。</p>
+          <p class="section-link"><a href="posts/product-boundaries.html">阅读全文</a></p>
+        </article>
+
+        <article class="panel note-card note-card-list">
+          <p class="section-label">更多记录</p>
+          <h3>接下来准备慢慢写下来的内容</h3>
+          <ul class="record-list">
+            <li>独立开发里，怎么给项目设定真正有用的评价标准</li>
+            <li>`pico-crm` 从小 MVP 往前走时，哪些地方最值得先收紧</li>
+          </ul>
+          <p class="section-link"><a href="records.html">进入记录页</a></p>
+        </article>
+      </section>
+
+      <section class="feature-layout" id="work">
+        <article class="panel feature-copy">
+          <p class="section-label">代表项目</p>
+          <h2>pico-crm</h2>
+          <p>
+            这是我最近持续在打磨的项目。它不是想做成一个“什么都能装进去”的大系统，而是希望把客户、线索、
+            跟进和协作这些核心事情，收进一套干净、轻巧、能往后长的结构里。
+          </p>
+          <p>
+            目前它已经是一个小 MVP，主要面向中小商家，适合那些希望按自己的行业和业务继续定制、
+            但又不想一开始就被复杂系统拖住的使用场景。
+          </p>
+          <div class="tag-row">
+            <span>Open Source</span>
+            <span>CRM</span>
+            <span>Product Notes</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/John0615/pico-crm">查看仓库</a>
+            <a class="button secondary" href="https://github.com/John0615">更多项目</a>
+          </div>
+        </article>
+
+        <article class="panel feature-media-card">
+          <img src="assets/crm-board.svg" alt="带有产品界面感的 CRM 插画">
+        </article>
+      </section>
+
+      <section class="mosaic-layout">
+        <article class="panel mosaic-card mosaic-card-image">
+          <img src="assets/starfield.svg" alt="星图风格的背景插画">
+        </article>
+        <article class="panel mosaic-card mosaic-card-text">
+          <p class="section-label">写下来</p>
+          <h2>博客对我来说，不只是展示页。</h2>
+          <p>
+            它更像一个缓慢整理自己的地方。项目为什么这样做，判断为什么变了，哪一步其实走弯了，
+            这些东西写下来之后，才会真正变成自己的经验。
+          </p>
+        </article>
+        <article class="panel mosaic-card mosaic-card-quote">
+          <p class="section-label">一句偏好</p>
+          <h2>比起堆满功能，我更喜欢把一条路径走顺。</h2>
+        </article>
+      </section>
+
+      <section class="panel contact-panel" id="contact">
+        <div class="contact-copy">
+          <p class="section-label">联系</p>
+          <h2>如果你也在做东西，可以从这里找到我。</h2>
+          <p>
+            现在最直接的公开入口还是 GitHub。以后如果把更多项目笔记和随笔补上，这里会更像一座真的星栈，而不只是主页。
+          </p>
+        </div>
+        <div class="contact-links">
+          <a href="https://github.com/John0615">
+            <span class="contact-title">GitHub</span>
+            <span class="contact-detail">github.com/John0615</span>
+          </a>
+          <a href="mailto:zhaosp0615@88.com">
+            <span class="contact-title">邮箱</span>
+            <span class="contact-detail">zhaosp0615@88.com</span>
+          </a>
+          <a href="https://github.com/John0615/pico-crm">
+            <span class="contact-title">项目入口</span>
+            <span class="contact-detail">github.com/John0615/pico-crm</span>
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

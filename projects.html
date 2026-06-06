@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>项目 | 星栈的博客</title>
+  <meta name="description" content="星栈的项目页：正在打磨的 pico-crm、小型桌面工具，以及围绕长期可用产品的一些判断。">
+  <meta name="theme-color" content="#ff7b5c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background-sky" aria-hidden="true"></div>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="index.html">星栈的博客</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="records.html">记录</a>
+        <a href="topics.html">主题</a>
+        <a href="projects.html" aria-current="page">项目</a>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero">
+        <p class="section-label">项目</p>
+        <h1>把项目做轻一点、稳一点，也做得更能顺着真实业务生长。</h1>
+        <p>
+          这里先集中放我现在最在意的项目方向。核心不是“做得多”，而是把结构、边界和长期可用性先收稳。
+        </p>
+      </section>
+
+      <section class="feature-layout">
+        <article class="panel feature-copy">
+          <p class="section-label">代表项目</p>
+          <h2>pico-crm</h2>
+          <p>
+            这是我最近持续在打磨的项目。它不是想做成一个“什么都能装进去”的大系统，而是希望把客户、线索、
+            跟进和协作这些核心事情，收进一套干净、轻巧、能往后长的结构里。
+          </p>
+          <p>
+            目前它已经是一个小 MVP，主要面向中小商家，适合那些希望按自己的行业和业务继续定制、
+            但又不想一开始就被复杂系统拖住的使用场景。
+          </p>
+          <div class="tag-row">
+            <span>Open Source</span>
+            <span>CRM</span>
+            <span>Small MVP</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button primary" href="https://github.com/John0615/pico-crm">查看仓库</a>
+            <a class="button secondary" href="records.html">看相关记录</a>
+          </div>
+        </article>
+
+        <article class="panel feature-media-card">
+          <img src="assets/crm-board.svg" alt="带有产品界面感的 CRM 插画">
+        </article>
+      </section>
+
+      <section class="page-grid">
+        <article class="page-panel">
+          <p class="section-label">为什么做它</p>
+          <h2>我想做的是可定制的 CRM，不是更复杂的通用 CRM。</h2>
+          <p>
+            对很多中小商家来说，问题往往不是功能不够多，而是系统太重、太通用、很难顺着自己业务去改。
+            所以 `pico-crm` 更在意的是结构是不是清楚、维护成本是不是可控、后续扩展是不是自然。
+          </p>
+          <p>
+            这也是我现在做项目的一个偏好：先把最核心的路径跑顺，再决定后面要不要继续长，而不是一开始就堆满所有可能性。
+          </p>
+        </article>
+
+        <aside class="page-stack">
+          <section class="page-panel">
+            <p class="section-label">当前状态</p>
+            <ul class="page-note-list">
+              <li>已经是小 MVP</li>
+              <li>主要面向中小商家</li>
+              <li>支持按行业和业务继续定制</li>
+              <li>重点控制性能、维护成本和扩展性</li>
+            </ul>
+          </section>
+
+          <section class="page-panel">
+            <p class="section-label">项目入口</p>
+            <p><a href="https://github.com/John0615/pico-crm">GitHub / pico-crm</a></p>
+            <p><a href="https://github.com/John0615">GitHub / 星栈</a></p>
+          </section>
+        </aside>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
